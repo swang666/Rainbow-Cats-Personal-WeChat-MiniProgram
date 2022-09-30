@@ -1,0 +1,8 @@
+<!--pages/Food/index.wxml-->
+<view class="container white">
+    <image class="background" src="Images/eat.gif" mode="aspectFit" wx:if="{{!loading}}"/>
+    <image class="background" src="Images/waving.gif" mode="aspectFit" wx:if="{{loading}}"/>
+    <button type="primary" bindtap="onGenerateClick" >今天吃啥子</button>
+    <text class="title">{{selected}}</text>
+</view>
+

@@ -4,3 +4,4 @@ node_modules/
 project.config.json
 project.private.config.json
 envList.js
+miniprogram/miniprogram_npm/

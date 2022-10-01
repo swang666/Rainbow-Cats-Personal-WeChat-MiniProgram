@@ -2,7 +2,12 @@
 <view class="container white">
     <image class="background" src="Images/eat.gif" mode="aspectFit" wx:if="{{!loading}}"/>
     <image class="background" src="Images/waving.gif" mode="aspectFit" wx:if="{{loading}}"/>
-    <button type="primary" bindtap="onGenerateClick" >今天吃啥子</button>
-    <text class="title">{{selected}}</text>
+    <button wx:if="{{!loading}}" type="primary" bindtap="onGenerateClick" >今天吃啥子</button>
+    <button wx:if="{{loading}}" type="default" disabled="true">
+        <my-loading type="circle" tips="清扫厨房中"/>
+    </button>
+    <view class="title">
+        <text>{{selected}}</text>
+    </view>
 </view>
 

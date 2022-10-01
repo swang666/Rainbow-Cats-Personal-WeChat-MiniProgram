@@ -1,4 +1,6 @@
 {
     "component": true,
-    "usingComponents": {}
+    "usingComponents": {
+        "my-loading": "../../miniprogram_npm/weui-miniprogram/loading/loading"
+    }
 }

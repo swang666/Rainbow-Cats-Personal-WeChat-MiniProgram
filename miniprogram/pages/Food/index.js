@@ -1,7 +1,8 @@
 // pages/Food/index.js
 Page({
     data: {
-        options: [{
+        options: [
+            {
                 name: "炸鸡"
             },
             {
@@ -21,6 +22,39 @@ Page({
             },
             {
                 name: "火锅"
+            },
+            {
+                name: "冒菜"
+            },
+            {
+                name: "披萨"
+            },
+            {
+                name: "越南粉"
+            },
+            {
+                name: "芝士猪扒饭"
+            },
+            {
+                name: "意大利面"
+            },
+            {
+                name: "重庆小面"
+            },
+            {
+                name: "台湾烧肉饭"
+            },
+            {
+                name: "猪脚饭"
+            },
+            {
+                name: "海南鸡"
+            },
+            {
+                name: "炸串"
+            },
+            {
+                name: "罗非鱼"
             },
         ],
         selected: "",
